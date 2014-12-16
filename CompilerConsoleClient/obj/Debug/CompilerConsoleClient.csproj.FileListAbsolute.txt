@@ -1,0 +1,10 @@
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.exe.config
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.exe
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.pdb
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\Newtonsoft.Json.dll
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\Newtonsoft.Json.xml
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\obj\Debug\CompilerConsoleClient.csprojResolveAssemblyReference.cache
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\obj\Debug\CompilerConsoleClient.exe
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\obj\Debug\CompilerConsoleClient.pdb
