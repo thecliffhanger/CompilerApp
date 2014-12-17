@@ -33,8 +33,8 @@ namespace CompilerConsoleClient
         }
 
         static void Main(string[] args)
+            client.BaseAddress = new Uri("http://localhost:9000/");
         {
-            client.BaseAddress = new Uri("http://localhost:4058/");
             client.DefaultRequestHeaders.Accept.Clear();
 
             var _formatters = new List<MediaTypeFormatter>() { new XmlMediaTypeFormatter() };
@@ -43,6 +43,9 @@ namespace CompilerConsoleClient
         BEGIN:
             Console.WriteLine("Connecting to the server...");
             client.DefaultRequestHeaders.Accept.Clear();
+
+            //var response = client.GetAsync(client.BaseAddress + "api/Connect").Result;
+
 
             RunAsync(client).Wait();
 
