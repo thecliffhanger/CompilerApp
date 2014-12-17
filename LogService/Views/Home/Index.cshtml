@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Entities.LogItem>
+
+@{
+    ViewBag.Title = "Display Logs";
+}
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Display Logs</h1>
+            </hgroup>
+        </div>
+    </section>
+</div>
+<br><br><br>
+<div style="align-content:center; align-items:center; margin-left:200px; align-self:stretch;width:100%">
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LogType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LogType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Source)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LogText)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditLog", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "LogDetails", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "DeleteLog", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+

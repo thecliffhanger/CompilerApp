@@ -16,11 +16,13 @@ using Microsoft.Owin.Security.OAuth;
 using WebServer.Models;
 using WebServer.Providers;
 using WebServer.Results;
+using WebServer.Filters;
 
 namespace WebServer.Controllers
 {
     [Authorize]
     [RoutePrefix("api/Account")]
+    [HandleExceptionAttribute]
     public class AccountController : ApiController
     {
         private const string LocalLoginProvider = "Local";

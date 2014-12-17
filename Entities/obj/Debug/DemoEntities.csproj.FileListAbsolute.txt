@@ -1,0 +1,5 @@
+c:\users\eldin\documents\visual studio 2013\Projects\DemoServer\DemoEntities\bin\Debug\DemoEntities.dll
+c:\users\eldin\documents\visual studio 2013\Projects\DemoServer\DemoEntities\bin\Debug\DemoEntities.pdb
+c:\users\eldin\documents\visual studio 2013\Projects\DemoServer\DemoEntities\obj\Debug\DemoEntities.dll
+c:\users\eldin\documents\visual studio 2013\Projects\DemoServer\DemoEntities\obj\Debug\DemoEntities.pdb
+c:\users\eldin\documents\visual studio 2013\Projects\DemoServer\DemoEntities\obj\Debug\DemoEntities.csprojResolveAssemblyReference.cache

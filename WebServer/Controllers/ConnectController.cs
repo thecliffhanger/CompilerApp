@@ -4,9 +4,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebServer.Filters;
 
 namespace WebServer.Controllers
 {
+    [HandleExceptionAttribute]
     public class ConnectController : ApiController
     {
         // GET api/<controller>

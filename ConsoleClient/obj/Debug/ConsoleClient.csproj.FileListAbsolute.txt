@@ -4,3 +4,8 @@ c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleClien
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleClient\obj\Debug\ConsoleClient.csprojResolveAssemblyReference.cache
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleClient\obj\Debug\ConsoleClient.exe
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleClient\obj\Debug\ConsoleClient.pdb

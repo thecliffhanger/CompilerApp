@@ -1,0 +1,11 @@
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\EntityModel\obj\Debug\EntityModel.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\EntityModel.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\EntityModel.pdb
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\DemoEntities.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\EntityFramework.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\DemoEntities.pdb
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\bin\Debug\EntityFramework.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\obj\Debug\EntityModel.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\obj\Debug\EntityModel.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\EntityModel\obj\Debug\EntityModel.pdb

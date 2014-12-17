@@ -1,0 +1,167 @@
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\LogServer\LogService\bin\LogService.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\LogService.dll.config
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Antlr3.Runtime.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\DemoEntities.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\EntityFramework.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Microsoft.Data.Edm.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Microsoft.Data.OData.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Newtonsoft.Json.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Net.Http.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Net.Http.Formatting.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Net.Http.WebRequest.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Spatial.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Helpers.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Http.OData.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Http.Tracing.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Mvc.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Optimization.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Providers.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Razor.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.WebPages.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\WebGrease.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\DemoEntities.pdb
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Newtonsoft.Json.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Net.Http.Formatting.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Mvc.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\EntityFramework.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Helpers.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Razor.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.WebPages.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Http.Tracing.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Web.Http.OData.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Microsoft.Data.Edm.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\Microsoft.Data.OData.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\System.Spatial.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\de\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\es\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\fr\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\it\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ja\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ko\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\ru\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\obj\Debug\LogService.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\obj\Debug\LogService.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\obj\Debug\LogService.pdb
+C:\Users\Eldin\documents\visual studio 2013\Projects\LogServer\LogService\bin\LogService.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\LogService.dll.config
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\LogService.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\LogService.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Antlr3.Runtime.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\DemoEntities.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\EntityFramework.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Microsoft.Data.Edm.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Microsoft.Data.OData.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Newtonsoft.Json.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Net.Http.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Net.Http.Formatting.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Net.Http.WebRequest.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Spatial.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Helpers.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Http.OData.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Http.Tracing.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Mvc.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Optimization.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Providers.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Razor.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.WebPages.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.WebPages.Razor.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\WebGrease.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\DemoEntities.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Newtonsoft.Json.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Net.Http.Formatting.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Mvc.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\EntityFramework.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Helpers.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Razor.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.WebPages.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.WebPages.Razor.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Http.Tracing.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Web.Http.OData.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Microsoft.Data.Edm.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\Microsoft.Data.OData.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\System.Spatial.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\de\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\es\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\fr\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\it\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ja\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ko\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\ru\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\obj\Debug\LogService.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\obj\Debug\LogService.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\LogServer\LogService\obj\Debug\LogService.pdb
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\LogServer\LogService\obj\Debug\LogService.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\LogService.dll.config
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\LogService.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\LogService.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\Antlr3.Runtime.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityDAL.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityFramework.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityFramework.SqlServer.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityModel.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\Newtonsoft.Json.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\System.Net.Http.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\System.Net.Http.WebRequest.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\System.Web.Optimization.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\WebGrease.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityModel.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityDAL.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\Antlr3.Runtime.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityFramework.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\EntityFramework.SqlServer.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\System.Web.Optimization.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\obj\Debug\LogService.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\obj\Debug\LogService.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\LogService\obj\Debug\LogService.pdb

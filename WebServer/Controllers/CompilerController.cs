@@ -1,17 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Web.Helpers;
+using System.Web.Hosting;
 using System.Web.Http;
 using System.Web.UI.WebControls;
 using System.Xml;
+using WebServer.Filters;
 
 namespace WebServer.Controllers
 {
     [Authorize]
+    [HandleExceptionAttribute]
     public class CompilerController : ApiController
     {
         // GET api/values
@@ -40,11 +44,11 @@ namespace WebServer.Controllers
         }
 
 
-        private XmlDocument GetXML(string xmlContent)
+        private string GetCommandXML()
         {
             XmlDocument objXMLDoc = new XmlDocument();
-            objXMLDoc.LoadXml(xmlContent);
-            return objXMLDoc;
+            objXMLDoc.Load(HostingEnvironment.MapPath("~/BuildConfigs/NAnt.build"));
+            return objXMLDoc.InnerXml;
         }
 
         [AllowAnonymous]
@@ -53,25 +57,11 @@ namespace WebServer.Controllers
         {
             try
             {
-                string compileCmd = "<?xml version=\"1.0\"?>" +
-                        "<project name=\"Getting Started with NAnt\" default=\"build\" basedir=\".\">" +
-                        "<target name=\"build\" description=\"Build a simple project\">" +
-                        "<csc target=\"exe\" output=\"Simple.exe\" debug=\"true\">" +
-                        "<sources> " +
-                         "<include name=\"simple.cs\" /> " +
-                        "</sources>" +
-                        "</csc>" +
-                         "</target>" +
-                        "</project>";
-
-                //return compileCmd;
-
-
+                             
                 return new HttpResponseMessage()
                 {
-                    Content = new StringContent(compileCmd, Encoding.UTF8, "application/xml")
-                };
-                //return GetXML(compileCmd).ToString();
+                    Content = new StringContent(GetCommandXML(), Encoding.UTF8, "application/xml")
+                };                
             }
             catch (Exception ex)
             {

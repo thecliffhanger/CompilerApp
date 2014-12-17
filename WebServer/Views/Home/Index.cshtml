@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EntityModel.Client>
+
+@{
+    ViewBag.Title = "Display Logs";
+}
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>Display Clients</h1>
+            </hgroup>
+        </div>
+    </section>
+</div>
+<br><br><br>
+<div style="align-content:center; align-items:center; margin-left:200px; align-self:stretch;width:100%">
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HostName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IPAddress)
+            </th>          
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HostName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IPAddress)
+                </td>                
+            </tr>
+        }
+
+    </table>
+</div>
+
