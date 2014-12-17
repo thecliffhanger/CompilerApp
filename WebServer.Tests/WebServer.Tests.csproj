@@ -98,12 +98,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
-    <Content Include="BuildTargets.xml" />
-    <Content Include="GlobalBuildSettings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DeployAzureApp.ps1" />
-    <None Include="Nant.build" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

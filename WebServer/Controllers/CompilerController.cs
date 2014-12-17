@@ -21,10 +21,8 @@ namespace WebServer.Controllers
         //}
 
         // GET api/values/5
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //[Route("Compiler/{id}")]
+        
 
         // POST api/values
         public void Post([FromBody]string value)
@@ -49,9 +47,9 @@ namespace WebServer.Controllers
             return objXMLDoc;
         }
 
-        [HttpGet]
         [AllowAnonymous]
-        public HttpResponseMessage NantCompileProjectCommand()
+        [ActionName("GetCompileCommand")]
+        public HttpResponseMessage GetNantCompileProjectCommand()
         {
             try
             {

@@ -1,0 +1,6 @@
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.exe.config
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.exe
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.pdb
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.csprojResolveAssemblyReference.cache
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.exe
+c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.pdb
