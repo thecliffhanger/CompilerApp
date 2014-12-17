@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using LogService.Areas.HelpPage.Models;
+using LogServer.Areas.HelpPage.Models;
 
-namespace LogService.Areas.HelpPage.Controllers
+namespace LogServer.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

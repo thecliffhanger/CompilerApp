@@ -1,0 +1,128 @@
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\nunit.framework.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\TestProgram.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\TestProgram.pdb
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\nunit.framework.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\obj\Debug\TestProgram.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\obj\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\obj\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\bin\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\bin\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\bin\Debug\nunit.framework.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\bin\Debug\TestProgram.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\bin\Debug\TestProgram.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\bin\Debug\nunit.framework.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\obj\Debug\TestProgram.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\obj\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\ClientServerApp\DemoServer\DemoProgramTests\obj\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\obj\Debug\TestProgram.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\obj\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\Desktop\Eldin Dalavai - Sr Net Architect\Code\ClientServerApp\TestProgram.Tests\obj\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\DemoProgram.Tests.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\TestProgram.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\TestProgram.pdb
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\obj\Debug\TestProgram.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\obj\Debug\DemoProgram.Tests.dll
+C:\Users\Eldin\Documents\Visual Studio 2013\Projects\TestProgram\TestProgram.Tests\obj\Debug\DemoProgram.Tests.pdb
+C:\TestProgram\TestProgram.Tests\bin\Debug\TestProgram.Tests.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\TestProgram.Tests.pdb
+C:\TestProgram\TestProgram.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\nunit.framework.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Helpers.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Mvc.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Razor.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\TestProgram.dll
+C:\TestProgram\TestProgram.Tests\bin\Debug\TestProgram.pdb
+C:\TestProgram\TestProgram.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\nunit.framework.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Helpers.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Mvc.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.Razor.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\TestProgram\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\TestProgram\TestProgram.Tests\obj\Debug\TestProgram.Tests.csprojResolveAssemblyReference.cache
+C:\TestProgram\TestProgram.Tests\obj\Debug\TestProgram.Tests.dll
+C:\TestProgram\TestProgram.Tests\obj\Debug\TestProgram.Tests.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\TestProgram.Tests.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\TestProgram.Tests.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\TestProgram.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\TestProgram.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\obj\Debug\TestProgram.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\obj\Debug\TestProgram.Tests.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\TestProgram.Tests\obj\Debug\TestProgram.Tests.pdb

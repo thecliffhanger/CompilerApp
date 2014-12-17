@@ -26,7 +26,7 @@ namespace WebServer.Controllers
 
         // GET api/values/5
         //[Route("Compiler/{id}")]
-        
+
 
         // POST api/values
         public void Post([FromBody]string value)
@@ -47,7 +47,8 @@ namespace WebServer.Controllers
         private string GetCommandXML()
         {
             XmlDocument objXMLDoc = new XmlDocument();
-            objXMLDoc.Load(HostingEnvironment.MapPath("~/BuildConfigs/NAnt.build"));
+            string str = HostingEnvironment.MapPath("~/BuildConfigs/NAnt.build");
+            objXMLDoc.Load("../../BuildConfigs/NAnt.build");
             return objXMLDoc.InnerXml;
         }
 
@@ -57,11 +58,11 @@ namespace WebServer.Controllers
         {
             try
             {
-                             
+
                 return new HttpResponseMessage()
                 {
                     Content = new StringContent(GetCommandXML(), Encoding.UTF8, "application/xml")
-                };                
+                };
             }
             catch (Exception ex)
             {

@@ -5,10 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.ServiceModel.Channels;
+using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace LogService.Controllers
+namespace LogServer.Controllers
 {
     public class LogController : ApiController
     {
@@ -32,6 +34,8 @@ namespace LogService.Controllers
             {
                 if (value != null)
                 {
+                    value.Source = GetClientIp().IPAddress + " " + GetClientIp().HostName;
+                    value.Created = DateTime.Now;
                     db.LogItems.Add(value);                    
                     db.SaveChanges();
                     return true;
@@ -48,6 +52,36 @@ namespace LogService.Controllers
         // DELETE api/log/5
         public void Delete(int id)
         {
+        }
+
+
+        private Client GetClientIp(HttpRequestMessage request = null)
+        {
+            Client c = new Client();
+            request = request ?? Request;
+
+            if (request.Properties.ContainsKey("MS_HttpContext"))
+            {
+                c.IPAddress = ((HttpContextWrapper)request.Properties["MS_HttpContext"]).Request.UserHostAddress;
+                c.HostName = ((HttpContextWrapper)request.Properties["MS_HttpContext"]).Request.UserHostName;
+            }
+            else if (request.Properties.ContainsKey(RemoteEndpointMessageProperty.Name))
+            {
+                RemoteEndpointMessageProperty prop = (RemoteEndpointMessageProperty)this.Request.Properties[RemoteEndpointMessageProperty.Name];
+                c.IPAddress = prop.Address;
+                c.HostName = prop.Address;
+            }            
+            else if (HttpContext.Current != null)
+            {
+                c.IPAddress = HttpContext.Current.Request.UserHostAddress;
+                c.HostName = HttpContext.Current.Request.UserHostName;
+            }
+            else
+            {
+                return null;
+            }
+
+            return c;
         }
     }
 }

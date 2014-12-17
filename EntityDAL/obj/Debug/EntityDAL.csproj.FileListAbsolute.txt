@@ -46,5 +46,7 @@ C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\bin\Debug\System.Web.WebPages
 C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\obj\Debug\EntityDAL.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\obj\Debug\EntityDAL.Migrations.InitialCreate.resources
+C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\obj\Debug\EntityDAL.csproj.GenerateResource.Cache
 C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\obj\Debug\EntityDAL.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\EntityDAL\obj\Debug\EntityDAL.pdb

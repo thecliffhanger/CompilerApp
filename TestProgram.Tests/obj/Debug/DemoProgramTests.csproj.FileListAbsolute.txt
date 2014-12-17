@@ -1,0 +1,9 @@
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\DemoProgramTests.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\DemoProgramTests.pdb
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\DemoTestProgram.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\nunit.framework.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\DemoTestProgram.pdb
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\bin\Debug\nunit.framework.xml
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\obj\Debug\DemoProgramTests.csprojResolveAssemblyReference.cache
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\obj\Debug\DemoProgramTests.dll
+C:\Users\Eldin\documents\visual studio 2013\Projects\DemoServer\DemoProgramTests\obj\Debug\DemoProgramTests.pdb

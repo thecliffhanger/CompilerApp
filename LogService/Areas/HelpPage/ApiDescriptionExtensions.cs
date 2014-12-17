@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace LogService.Areas.HelpPage
+namespace LogServer.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

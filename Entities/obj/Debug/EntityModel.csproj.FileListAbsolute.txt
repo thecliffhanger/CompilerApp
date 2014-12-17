@@ -24,4 +24,3 @@ C:\Users\Eldin\Documents\Git\CompilerApp\Entities\bin\Debug\System.Web.WebPages.
 C:\Users\Eldin\Documents\Git\CompilerApp\Entities\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Eldin\Documents\Git\CompilerApp\Entities\obj\Debug\EntityModel.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\Entities\obj\Debug\EntityModel.pdb
-C:\Users\Eldin\Documents\Git\CompilerApp\Entities\obj\Debug\EntityModel.csprojResolveAssemblyReference.cache

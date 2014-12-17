@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace LogService
+namespace LogServer
 {
     public class FilterConfig
     {

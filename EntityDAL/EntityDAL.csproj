@@ -80,6 +80,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogDBContext.cs" />
+    <Compile Include="Migrations\201412162115101_InitialCreate.cs" />
+    <Compile Include="Migrations\201412162115101_InitialCreate.Designer.cs">
+      <DependentUpon>201412162115101_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +98,11 @@
       <Project>{ff564de1-7670-48ef-9bb1-6bfe65a15bd4}</Project>
       <Name>EntityModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201412162115101_InitialCreate.resx">
+      <DependentUpon>201412162115101_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

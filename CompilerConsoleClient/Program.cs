@@ -15,16 +15,25 @@ using System.IO;
 using System.Xml.Linq;
 using Client.Helpers;
 using EntityModel;
+using System.Runtime.InteropServices;
+using System.Configuration;
 
 
 namespace CompilerConsoleClient
 {
     class Program
     {
+        static HttpClient client;
+        static StringBuilder commandInputs;
+
+        static Program()
+        {
+            commandInputs = new StringBuilder();
+            client = new HttpClient();
+        }
+
         static void Main(string[] args)
         {
-            var client = new HttpClient();
-
             client.BaseAddress = new Uri("http://localhost:4058/");
             client.DefaultRequestHeaders.Accept.Clear();
 
@@ -39,29 +48,42 @@ namespace CompilerConsoleClient
 
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
 
-            bool exit = false;
+
             int input = 0;
 
-            while (!exit)
+            while (!exitSystem)
             {
+
             MENU:
+
                 Console.WriteLine("Please select from the following actions\n");
-                Console.WriteLine("1.Compile and Test a project");
-                Console.WriteLine("2.Disconnect \n");
+                Console.WriteLine("1.Compile a project");
+                Console.WriteLine("2.Compile and Test a project");
+                Console.WriteLine("3.Disconnect \n");
+                commandInputs = new StringBuilder();
                 var inputText = Console.ReadLine();
+
                 if (!Int32.TryParse(inputText, out input))
                     goto MENU;
 
                 switch (input)
                 {
                     case 1:
-                        Console.WriteLine("\nEnter the path of the solution(project) to compile and test using NAnt:\n");
+                        Console.WriteLine("\nEnter the path of the solution(project) to compile using NAnt:\n");
                         var sourcePath = Console.ReadLine();
-                        ExecuteCompileCommand(client, sourcePath);
+                        commandInputs.AppendLine("SourcePath: " + sourcePath);
+                        ExecuteCommand(client, sourcePath, input);
                         break;
                     case 2:
+                        Console.WriteLine("\nEnter the path of the solution(project) to compile and test using NAnt:\n");
+                        sourcePath = Console.ReadLine();
+                        commandInputs.AppendLine("SourcePath: " + sourcePath);
+                        ExecuteCommand(client, sourcePath, input);
+                        break;
+                    case 3:
                         Console.WriteLine("Disconnecting...");
-                        exit = true;
+                        RunDisconnectAsync(client).Wait();
+                        exitSystem = true;
                         break;
                 }
             }
@@ -73,18 +95,18 @@ namespace CompilerConsoleClient
                 goto BEGIN;
         }
 
-        private static void ExecuteCompileCommand(HttpClient client, string path)
+        private static void ExecuteCommand(HttpClient client, string path, int input)
         {
             try
             {
-                GetCompileCommand(client, path).Wait();
-                var output = RunCompileCommand(path);
-                Log("Info", output);
+                string commandXml = GetCommand(client, path, input).Result;
+                var output = RunCommand(path, commandXml);
+                Log("Info", input, output);
             }
-            catch (Exception ex) { Log("Error", ex.StackTrace); }
+            catch (Exception ex) { Log("Error", content: ex.StackTrace); }
         }
 
-        private static string RunCompileCommand(string path)
+        private static string RunCommand(string path, string commandXml)
         {
             try
             {
@@ -139,6 +161,15 @@ namespace CompilerConsoleClient
             }
         }
 
+
+        private static async Task RunDisconnectAsync(HttpClient client)
+        {
+            HttpResponseMessage response = await client.DeleteAsync("api/Connect");
+            var result = response.Content.ReadAsStringAsync().Result;
+            Console.WriteLine("Disconnected from the server \n");
+            response.EnsureSuccessStatusCode();
+        }
+
         private static async Task RunAsync(HttpClient client)
         {
             HttpResponseMessage response = await client.GetAsync("api/Connect");
@@ -148,15 +179,16 @@ namespace CompilerConsoleClient
             response.EnsureSuccessStatusCode();
         }
 
-        private static async Task GetCompileCommand(HttpClient client, string path)
+        private static async Task<string> GetCommand(HttpClient client, string path, int input)
         {
             HttpResponseMessage response = await client.GetAsync("api/Compiler/GetCompileCommand");
-            var result = response.Content.ReadAsStringAsync().Result;
-            SaveCompileCommandXML(result, path);
+            var commandXml = response.Content.ReadAsStringAsync().Result;
+            string xmlPath = SaveCommandXML(commandXml, path, input);
             response.EnsureSuccessStatusCode();
+            return xmlPath;
         }
 
-        private static void SaveCompileCommandXML(string xmlContent, string path)
+        private static string SaveCommandXML(string xmlContent, string path, int input)
         {
             var projFiles = Directory.GetFiles(path, "*.csproj", SearchOption.AllDirectories).Select(x => Path.GetFileNameWithoutExtension(x)).ToList();
             var testProjFiles = Directory.GetFiles(path, "*Tests.csproj", SearchOption.AllDirectories).Select(x => Path.GetFileNameWithoutExtension(x)).ToList();
@@ -164,18 +196,46 @@ namespace CompilerConsoleClient
             var objXMLDoc = XDocument.Parse(xmlContent);
             var solName = GetElementByAttibuteValue(objXMLDoc, "name", "solution.name");
             solName.SetAttributeValue("value", Path.GetFileName(path));
+            commandInputs.AppendLine("solution.name: " + Path.GetFileName(path));
 
             var solSrcDir = GetElementByAttibuteValue(objXMLDoc, "name", "solution.src.dir");
             solSrcDir.SetAttributeValue("value", "");
+            commandInputs.AppendLine("solution.src.dir: " + "");
 
             var solProjs = GetElementByAttibuteValue(objXMLDoc, "name", "solution.projects");
             solProjs.SetAttributeValue("value", string.Join(",", projFiles));
+            commandInputs.AppendLine("solution.projects: " + projFiles);
 
             var solTestProjs = GetElementByAttibuteValue(objXMLDoc, "name", "test.project.names");
             solTestProjs.SetAttributeValue("value", string.Join(",", testProjFiles));
+            commandInputs.AppendLine("test.project.names: " + testProjFiles);
+
+            var solWS = GetElementByAttibuteValue(objXMLDoc, "name", "local.workspace");
+            solWS.SetAttributeValue("value", path.Replace(Path.GetFileName(path), ""));
+            commandInputs.AppendLine("local.workspace: " + path.Replace(Path.GetFileName(path), ""));
+
+            var runtest = GetElementByAttibuteValue(objXMLDoc, "name", "run.nunit.tests");
+            runtest.SetAttributeValue("value", (input == 2) ? true : false);
+            commandInputs.AppendLine("run.nunit.tests: " + ((input == 2) ? true : false).ToString());
+
+            var msbuild = GetElementByAttibuteValue(objXMLDoc, "name", "msbuild4.exe");
+            msbuild.SetAttributeValue("value", ConfigurationManager.AppSettings["msbuild4.exe"]);
+
+            var csc = GetElementByAttibuteValue(objXMLDoc, "name", "cspack.exe");
+            csc.SetAttributeValue("value", ConfigurationManager.AppSettings["cspack.exe"]);
+
+            var ps = GetElementByAttibuteValue(objXMLDoc, "name", "powershell.exe");
+            ps.SetAttributeValue("value", ConfigurationManager.AppSettings["powershell.exe"]);
+
+            var nunit = GetElementByAttibuteValue(objXMLDoc, "name", "nunit-console.exe");
+            nunit.SetAttributeValue("value", ConfigurationManager.AppSettings["nunit-console.exe"]);
 
             var con = WebUtility.HtmlDecode(xmlContent);
-            objXMLDoc.Save(Path.Combine(path, "Nant.build"));
+
+            string xmlPath = Path.Combine(path, "Nant.build");
+            objXMLDoc.Save(xmlPath);
+
+            return xmlPath;
         }
 
         private static XElement GetElementByAttibuteValue(XDocument source, string attrName, string attrValue)
@@ -185,17 +245,78 @@ namespace CompilerConsoleClient
             return xelement;
         }
 
-        private static void Log(string type, string content)
+        private static void Log(string type, int input = 0, string content = "")
         {
             try
             {
-                LogServerHelper logger = new LogServerHelper();
-                logger.Post(new LogItem() { Id = Guid.NewGuid(), LogType = type, Source = "Client", LogText = content });
+                LogServerHelper logger = new LogServerHelper();                
+                logger.Post(new LogItem()
+                {
+                    Id = Guid.NewGuid(),
+                    LogType = type,
+                    Command = GetCommandString(input),
+                    Inputs = commandInputs.ToString(),
+                    LogText = content
+                });
             }
             catch (Exception ex)
             {
                 //EventLog.WriteEntry("Client", ex.Message);
             }
+            finally
+            {
+                commandInputs = new StringBuilder();
+            }
         }
+
+
+        private static string GetCommandString(int input)
+        {
+            if (input == 1)
+                return "Compile";
+            else if (input == 2)
+                return "Compile & Test";
+            else if (input == 3)
+                return "Disconnect";
+            return "";
+        }
+
+        static bool exitSystem = false;
+
+        #region Trap application termination
+        [DllImport("Kernel32")]
+        private static extern bool SetConsoleCtrlHandler(EventHandler handler, bool add);
+
+        private delegate bool EventHandler(CtrlType sig);
+        static EventHandler _handler;
+
+        enum CtrlType
+        {
+            CTRL_C_EVENT = 0,
+            CTRL_BREAK_EVENT = 1,
+            CTRL_CLOSE_EVENT = 2,
+            CTRL_LOGOFF_EVENT = 5,
+            CTRL_SHUTDOWN_EVENT = 6
+        }
+
+        private static bool Handler(CtrlType sig)
+        {
+            Console.WriteLine("Exiting system due to external CTRL-C, or process kill, or shutdown");
+
+            if (!exitSystem)
+                RunDisconnectAsync(client).Wait();
+
+            Console.WriteLine("Cleanup complete");
+
+            //allow main to run off
+            exitSystem = true;
+
+            //shutdown right away so there are no lingering threads
+            Environment.Exit(-1);
+
+            return true;
+        }
+        #endregion
+
     }
 }

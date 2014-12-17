@@ -1,45 +1,50 @@
 ﻿@model IEnumerable<EntityModel.Client>
 
 @{
-    ViewBag.Title = "Display Logs";
+    ViewBag.Title = "Display Clients";
 }
 <div id="body">
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1>Display Clients</h1>
+                <h1>@ViewBag.Title</h1>
             </hgroup>
         </div>
     </section>
 </div>
-<br><br><br>
-<div style="align-content:center; align-items:center; margin-left:200px; align-self:stretch;width:100%">
+
+<div >
     <table>
         <tr>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.Id)
             </th>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.HostName)
             </th>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.IPAddress)
-            </th>          
-            <th></th>
+            </th>           
         </tr>
 
         @foreach (var item in Model)
         {
             <tr>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.Id)
                 </td>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.HostName)
                 </td>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.IPAddress)
-                </td>                
+                </td>
+               
+                @*<td>
+                        @Html.ActionLink("Edit", "EditLog", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "LogDetails", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "DeleteLog", new { id = item.Id })
+                    </td>*@
             </tr>
         }
 

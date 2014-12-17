@@ -15,15 +15,15 @@ namespace EntityModel
         {           
         }
 
-        [DisplayName("Id")]
+        [DisplayName("Client Id")]
         [DataMember]
         public Guid Id { get; set; }
 
-        [DisplayName("Name")]
+        [DisplayName("Host Name")]
         [DataMember]
         public string HostName { get; set; }
 
-        [DisplayName("IPAddress")]
+        [DisplayName("IP Address")]
         [DataMember]
         public string IPAddress { get; set; }
 

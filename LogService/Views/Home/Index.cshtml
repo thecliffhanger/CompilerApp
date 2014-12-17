@@ -1,5 +1,4 @@
-﻿@model IEnumerable<Entities.LogItem>
-
+﻿@model IEnumerable<EntityModel.LogItem>
 @{
     ViewBag.Title = "Display Logs";
 }
@@ -7,25 +6,25 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1>Display Logs</h1>
+                <h1>@ViewBag.Title</h1>
             </hgroup>
         </div>
     </section>
 </div>
-<br><br><br>
-<div style="align-content:center; align-items:center; margin-left:200px; align-self:stretch;width:100%">
+
+<div style="margin-left:200px; width:100%">
     <table>
         <tr>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.LogType)
             </th>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.Source)
             </th>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.LogText)
             </th>
-            <th>
+            <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.Created)
             </th>
             <th></th>
@@ -34,23 +33,23 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.LogType)
                 </td>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.Source)
                 </td>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.LogText)
                 </td>
-                <td>
+                <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.Created)
                 </td>
-                <td>
-                    @Html.ActionLink("Edit", "EditLog", new { id = item.Id }) |
-                    @Html.ActionLink("Details", "LogDetails", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "DeleteLog", new { id = item.Id })
-                </td>
+                @*<td>
+                        @Html.ActionLink("Edit", "EditLog", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "LogDetails", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "DeleteLog", new { id = item.Id })
+                    </td>*@
             </tr>
         }
 

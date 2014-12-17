@@ -7,9 +7,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using LogService.Areas.HelpPage.Models;
+using LogServer.Areas.HelpPage.Models;
 
-namespace LogService.Areas.HelpPage
+namespace LogServer.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {
