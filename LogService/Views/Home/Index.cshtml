@@ -12,7 +12,7 @@
     </section>
 </div>
 
-<div style="margin-left:200px; width:100%">
+<div style="margin-left:200px; width:900px">
     <table>
         <tr>
             <th style="padding:5px 10px 5px 5px">
@@ -20,6 +20,12 @@
             </th>
             <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.Command)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.Inputs)
             </th>
             <th style="padding:5px 10px 5px 5px">
                 @Html.DisplayNameFor(model => model.LogText)
@@ -38,6 +44,12 @@
                 </td>
                 <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.Source)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.Command)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.Inputs)
                 </td>
                 <td style="padding:5px 10px 5px 5px">
                     @Html.DisplayFor(modelItem => item.LogText)
