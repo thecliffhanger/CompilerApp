@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
@@ -49,7 +50,7 @@ namespace OwinSelfhostServer
         private string GetCommandXML()
         {
             XmlDocument objXMLDoc = new XmlDocument();
-            var path = "../../BuildConfigs/NAnt.build";
+            var path = ConfigurationManager.AppSettings["BuildFilePath"];
             objXMLDoc.Load(path);
             return objXMLDoc.InnerXml;
         }

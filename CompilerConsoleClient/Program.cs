@@ -186,9 +186,37 @@ namespace CompilerConsoleClient
         {
             HttpResponseMessage response = await client.GetAsync("api/Compiler/GetCompileCommand");
             var commandXml = response.Content.ReadAsStringAsync().Result;
-            string xmlPath = SaveCommandXML(commandXml, path, input);
+            commandXml = GetCommandXML(path);
+            string xmlPath = SetOnlyCompilation(commandXml, path, input);
             response.EnsureSuccessStatusCode();
             return xmlPath;
+        }
+
+        private static string GetCommandXML(string path)
+        {
+            var buildFile = Directory.GetFiles(path, "*.build", SearchOption.AllDirectories).Select(x => Path.GetFileNameWithoutExtension(x)).First();
+            XmlDocument objXMLDoc = new XmlDocument();
+            objXMLDoc.Load(Path.GetFullPath(path) + "\\" + buildFile + ".build");
+            return objXMLDoc.InnerXml;
+        }
+
+        private static string SetOnlyCompilation(string xmlContent, string path, int input)
+        {
+            var buildFiles = Directory.GetFiles(path, "*.build", SearchOption.AllDirectories).Select(x => Path.GetFileNameWithoutExtension(x)).ToList();
+            foreach (var buildFile in buildFiles)
+            {
+                var buildFileLocation = Path.GetFullPath(path) + "\\" + buildFile + ".build";
+                var objXMLDoc = XDocument.Parse(xmlContent);
+
+                //set run.nunit.tests to false so that the tests would not run.
+                var runtest = GetElementByAttibuteValue(objXMLDoc, "name", "run.nunit.tests");
+                runtest.SetAttributeValue("value", (input == 2) ? true : false);
+                commandInputs.AppendLine("run.nunit.tests: " + ((input == 2) ? true : false).ToString());
+
+                objXMLDoc.Save(buildFileLocation); 
+            }
+
+            return Path.GetFullPath(path) + buildFiles.First();
         }
 
         private static string SaveCommandXML(string xmlContent, string path, int input)
@@ -214,8 +242,8 @@ namespace CompilerConsoleClient
             commandInputs.AppendLine("test.project.names: " + string.Join(",", testProjFiles));
 
             var solWS = GetElementByAttibuteValue(objXMLDoc, "name", "local.workspace");
-            solWS.SetAttributeValue("value", path.Replace(Path.GetFileName(path), ""));
-            commandInputs.AppendLine("local.workspace: " + path.Replace(Path.GetFileName(path), ""));
+            solWS.SetAttributeValue("value", Path.GetFullPath(path));
+            commandInputs.AppendLine("local.workspace: " + Path.GetFullPath(path));
 
             var runtest = GetElementByAttibuteValue(objXMLDoc, "name", "run.nunit.tests");
             runtest.SetAttributeValue("value", (input == 2) ? true : false);
@@ -235,8 +263,12 @@ namespace CompilerConsoleClient
 
             var con = WebUtility.HtmlDecode(xmlContent);
 
-            string xmlPath = Path.Combine(path, "Nant.build");
+            // Generating a NAnt build file from this application
+            string xmlPath = Path.Combine(path, "Generated_NAnt_Build.xml");
             objXMLDoc.Save(xmlPath);
+
+            Console.WriteLine("A NAnt Build file has been generated at:");
+            Console.WriteLine(xmlPath);
 
             return xmlPath;
         }
