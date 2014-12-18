@@ -8,13 +8,13 @@ c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerCons
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\obj\Debug\CompilerConsoleClient.csprojResolveAssemblyReference.cache
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\obj\Debug\CompilerConsoleClient.exe
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\CompilerConsoleClient\obj\Debug\CompilerConsoleClient.pdb
-C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.exe.config
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.exe
+C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.exe.config
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\CompilerConsoleClient.pdb
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\EntityModel.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\System.Web.Helpers.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\System.Web.Mvc.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\CompilerConsoleClient\bin\Debug\System.Web.Razor.dll

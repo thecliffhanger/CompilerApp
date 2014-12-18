@@ -29,7 +29,7 @@ namespace WebServer.Helpers
 
         public bool Post(LogItem obj)
         {
-            HttpResponseMessage response = _client.PostAsync<LogItem>(_logServerUrl, obj, new XmlMediaTypeFormatter()).Result;
+            HttpResponseMessage response = _client.PutAsync<LogItem>(_logServerUrl, obj, new XmlMediaTypeFormatter()).Result;
             var data = response.Content.ReadAsAsync<bool>().Result;
             return data;
         }

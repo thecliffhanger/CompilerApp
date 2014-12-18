@@ -14,18 +14,18 @@ namespace LogServer.Controllers
         {
             List<LogItem> list = new List<LogItem>();
 
-            using (var db = new LogDBContext())
-            {
-                if (db.LogItems.Count() == 0)
-                {
-                    db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test", Source = "AnySource", Created = DateTime.Now });
-                    db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test1", Source = "AnySource", Created = DateTime.Now });
-                    db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test2", Source = "AnySource", Created = DateTime.Now });
-                    db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test3", Source = "AnySource", Created = DateTime.Now });
-                    db.SaveChanges();
-                }
-                list = db.LogItems.ToList();
-            }
+            //using (var db = new LogDBContext())
+            //{
+            //    if (db.LogItems.Count() == 0)
+            //    {
+            //        db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test", Source = "AnySource", Created = DateTime.Now });
+            //        db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test1", Source = "AnySource", Created = DateTime.Now });
+            //        db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test2", Source = "AnySource", Created = DateTime.Now });
+            //        db.LogItems.Add(new LogItem() { Id = Guid.NewGuid(), LogType = "Error", LogText = "Test3", Source = "AnySource", Created = DateTime.Now });
+            //        db.SaveChanges();
+            //    }
+            //    list = db.LogItems.ToList();
+            //}
             
             return View(list);
 

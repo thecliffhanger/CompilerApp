@@ -1,8 +1,8 @@
-﻿@model IEnumerable<EntityModel.Client>
-
+﻿
 @{
-    ViewBag.Title = "Display Clients";
+    ViewBag.Title = "Welcome";
 }
+
 <div id="body">
     <section class="featured">
         <div class="content-wrapper">
@@ -12,42 +12,10 @@
         </div>
     </section>
 </div>
-
-<div >
-    <table>
-        <tr>
-            <th style="padding:5px 10px 5px 5px">
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th style="padding:5px 10px 5px 5px">
-                @Html.DisplayNameFor(model => model.HostName)
-            </th>
-            <th style="padding:5px 10px 5px 5px">
-                @Html.DisplayNameFor(model => model.IPAddress)
-            </th>           
-        </tr>
-
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td style="padding:5px 10px 5px 5px">
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td style="padding:5px 10px 5px 5px">
-                    @Html.DisplayFor(modelItem => item.HostName)
-                </td>
-                <td style="padding:5px 10px 5px 5px">
-                    @Html.DisplayFor(modelItem => item.IPAddress)
-                </td>
-               
-                @*<td>
-                        @Html.ActionLink("Edit", "EditLog", new { id = item.Id }) |
-                        @Html.ActionLink("Details", "LogDetails", new { id = item.Id }) |
-                        @Html.ActionLink("Delete", "DeleteLog", new { id = item.Id })
-                    </td>*@
-            </tr>
-        }
-
-    </table>
-</div>
+<br />
+<br />
+@Html.ActionLink("View Clients", "Clients")
+<br />
+<br />
+@Html.ActionLink("View Logs", "Logs")
 

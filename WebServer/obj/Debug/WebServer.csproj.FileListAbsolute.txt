@@ -65,6 +65,7 @@ C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\WebServer.dll.config
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\WebServer.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\WebServer.pdb
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\Antlr3.Runtime.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\EntityDAL.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\EntityFramework.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\EntityFramework.SqlServer.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\EntityModel.dll
@@ -96,6 +97,7 @@ C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\System.Web.WebPages.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\System.Web.WebPages.Razor.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\WebGrease.dll
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\EntityModel.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\EntityDAL.pdb
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\System.Web.Helpers.xml
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\System.Web.Mvc.xml
 C:\Users\Eldin\Documents\Git\CompilerApp\WebServer\bin\System.Web.Razor.xml

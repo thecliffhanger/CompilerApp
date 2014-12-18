@@ -4,9 +4,26 @@ c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServe
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.csprojResolveAssemblyReference.cache
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.exe
 c:\users\raviteja\documents\visual studio 2013\Projects\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.pdb
-C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.exe.config
 C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.exe
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\EntityModel.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Microsoft.Owin.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Microsoft.Owin.Hosting.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Owin.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\System.Web.Http.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.exe.config
 C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\ConsoleServer.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\EntityModel.pdb
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Microsoft.Owin.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Microsoft.Owin.Hosting.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\System.Web.Http.xml
+C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\bin\Debug\System.Web.Http.Owin.xml
 C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.csprojResolveAssemblyReference.cache
 C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.exe
 C:\Users\Eldin\Documents\Git\CompilerApp\ConsoleServer\obj\Debug\ConsoleServer.pdb

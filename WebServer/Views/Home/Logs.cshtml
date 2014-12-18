@@ -1,0 +1,70 @@
+﻿@model IEnumerable<EntityModel.LogItem>
+@{
+    ViewBag.Title = "Display Logs";
+}
+<div id="body">
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title</h1>
+            </hgroup>
+        </div>
+    </section>
+</div>
+
+<div style=" width:900px">
+    <table>
+        <tr>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.LogType)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.Command)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.Inputs)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.LogText)
+            </th>
+            <th style="padding:5px 10px 5px 5px">
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.LogType)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.Source)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.Command)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.Inputs)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.LogText)
+                </td>
+                <td style="padding:5px 10px 5px 5px">
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                @*<td>
+                        @Html.ActionLink("Edit", "EditLog", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "LogDetails", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "DeleteLog", new { id = item.Id })
+                    </td>*@
+            </tr>
+        }
+
+    </table>
+</div>
+

@@ -32,9 +32,9 @@ namespace CompilerConsoleClient
             client = new HttpClient();
         }
 
-        static void Main(string[] args)
-            client.BaseAddress = new Uri("http://localhost:9000/");
+        static void Main(string[] args)            
         {
+            client.BaseAddress = new Uri("http://localhost:9000/");
             client.DefaultRequestHeaders.Accept.Clear();
 
             var _formatters = new List<MediaTypeFormatter>() { new XmlMediaTypeFormatter() };
@@ -207,11 +207,11 @@ namespace CompilerConsoleClient
 
             var solProjs = GetElementByAttibuteValue(objXMLDoc, "name", "solution.projects");
             solProjs.SetAttributeValue("value", string.Join(",", projFiles));
-            commandInputs.AppendLine("solution.projects: " + projFiles);
+            commandInputs.AppendLine("solution.projects: " + string.Join(",", projFiles));
 
             var solTestProjs = GetElementByAttibuteValue(objXMLDoc, "name", "test.project.names");
             solTestProjs.SetAttributeValue("value", string.Join(",", testProjFiles));
-            commandInputs.AppendLine("test.project.names: " + testProjFiles);
+            commandInputs.AppendLine("test.project.names: " + string.Join(",", testProjFiles));
 
             var solWS = GetElementByAttibuteValue(objXMLDoc, "name", "local.workspace");
             solWS.SetAttributeValue("value", path.Replace(Path.GetFileName(path), ""));

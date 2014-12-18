@@ -17,7 +17,7 @@ namespace WebServer.Tests.Controllers
         public void Get()
         {
             // Arrange
-            CompilerController controller = new CompilerController();
+            LogController controller = new LogController();
 
             // Act
             //IEnumerable<string> result = controller.Get();
@@ -33,7 +33,7 @@ namespace WebServer.Tests.Controllers
         public void GetById()
         {
             // Arrange
-            CompilerController controller = new CompilerController();
+            LogController controller = new LogController();
 
             //// Act
             //string result = controller.Get(5);
@@ -46,10 +46,10 @@ namespace WebServer.Tests.Controllers
         public void Post()
         {
             // Arrange
-            CompilerController controller = new CompilerController();
+            LogController controller = new LogController();
 
             // Act
-            controller.Post("value");
+            //controller.Post("value");
 
             // Assert
         }
@@ -58,10 +58,10 @@ namespace WebServer.Tests.Controllers
         public void Put()
         {
             // Arrange
-            CompilerController controller = new CompilerController();
+            LogController controller = new LogController();
 
             // Act
-            controller.Put(5, "value");
+            //controller.Put(5, "value");
 
             // Assert
         }
@@ -70,7 +70,7 @@ namespace WebServer.Tests.Controllers
         public void Delete()
         {
             // Arrange
-            CompilerController controller = new CompilerController();
+            LogController controller = new LogController();
 
             // Act
             controller.Delete(5);
